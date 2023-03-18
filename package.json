@@ -1,0 +1,29 @@
+{
+  "name": "mean_ecommapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhawani-K/MEAN_eCommApp.git"
+  },
+  "author": "Bhawani_K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhawani-K/MEAN_eCommApp/issues"
+  },
+  "homepage": "https://github.com/Bhawani-K/MEAN_eCommApp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
